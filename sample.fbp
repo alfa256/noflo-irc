@@ -1,0 +1,5 @@
+'irc.freenode.net' -> SERVER Client(irc/Client)
+'robocop' -> NICK Client
+'#botest' -> CHANNEL Client
+'hello world!' -> IN Client OUT -> IN Out(core/Output)
+Client PM -> IN Ep(irc/GetValue) OUT -> IN Client

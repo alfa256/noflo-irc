@@ -1,0 +1,28 @@
+{
+  "name": "noflo-irc",
+  "description": "IRC client components for noflo.",
+  "author": "Alfredo Consebola <sistemas.alfredo@gmail.com>",
+  "repo": "alpha/noflo-irc",
+  "version": "0.1.0",
+  "keywords": [],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "remotes": [
+    "https://raw.githubusercontent.com"
+  ],
+  "scripts": [
+    "index.js",
+    "components/Client.coffee",
+    "components/GetValue.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "Client": "components/Client.coffee",
+      "GetValue": "components/GetValue.coffee"
+    }
+  }
+}
